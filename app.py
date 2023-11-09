@@ -1,11 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-import json
-import requests
 import joblib
 import pandas as pd
-import numpy as np
-from sklearn.preprocessing import StandardScaler
+
 
 app = Flask(__name__)
 CORS(app)
